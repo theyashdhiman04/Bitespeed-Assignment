@@ -17,21 +17,21 @@
   ],
   "license": "ISC",
   "dependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.3.3",
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
     "sqlite": "^5.1.1",
     "sqlite3": "^5.1.7",
+    "typescript": "^5.9.3",
     "zod": "^4.1.11"
   },
   "devDependencies": {
-    "@types/express": "^5.0.6",
     "@types/jest": "^30.0.0",
-    "@types/node": "^25.3.3",
     "@types/supertest": "^7.0.0",
     "jest": "^30.2.0",
     "supertest": "^7.1.4",
     "ts-jest": "^29.4.5",
-    "tsx": "^4.21.0",
-    "typescript": "^5.9.3"
+    "tsx": "^4.21.0"
   }
 }
