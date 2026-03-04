@@ -48,6 +48,11 @@ Returns a consolidated view of all linked contacts:
 - The primary contact's email and phone are always listed **first** in their respective arrays.
 - Sends `400` if neither `email` nor `phoneNumber` is provided.
 
+### Hosted endpoint (Render)
+
+- **Base URL**: `https://bitespeed-assignment-15mx.onrender.com`
+- **Identify endpoint**: `POST https://bitespeed-assignment-15mx.onrender.com/identify`
+
 ### `GET /health`
 
 Returns `{ "status": "ok" }` — useful for uptime monitoring.
