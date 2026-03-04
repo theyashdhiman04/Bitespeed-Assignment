@@ -1,0 +1,37 @@
+{
+  "name": "bitespeed-identity-reconciliation",
+  "version": "1.0.0",
+  "description": "Contact identity reconciliation service for the Bitespeed backend task",
+  "main": "dist/index.js",
+  "author": "theyashdhiman04",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "test": "jest --runInBand"
+  },
+  "keywords": [
+    "bitespeed",
+    "identity",
+    "reconciliation"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "zod": "^4.1.11"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.3.3",
+    "@types/supertest": "^7.0.0",
+    "jest": "^30.2.0",
+    "supertest": "^7.1.4",
+    "ts-jest": "^29.4.5",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
