@@ -5,9 +5,10 @@
   "main": "dist/index.js",
   "author": "theyashdhiman04",
   "scripts": {
+    "postinstall": "npm run build",
     "dev": "tsx watch src/index.ts",
     "build": "tsc -p tsconfig.json",
-    "start": "tsx src/index.ts",
+    "start": "node dist/index.js",
     "test": "jest --runInBand"
   },
   "keywords": [
