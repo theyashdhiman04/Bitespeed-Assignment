@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: bitespeed-identity-reconciliation
+    runtime: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: DATABASE_URL
+        value: "file:./data/prod.db"
+      - key: PORT
+        value: "10000"
+      - key: NODE_ENV
+        value: production
+    disk:
+      name: sqlite-data
+      mountPath: /opt/render/project/src/data
+      sizeGB: 1
