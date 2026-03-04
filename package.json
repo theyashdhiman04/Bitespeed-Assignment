@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "build": "tsc -p tsconfig.json",
-    "start": "node dist/index.js",
+    "start": "tsx src/index.ts",
     "test": "jest --runInBand"
   },
   "keywords": [
@@ -23,6 +23,7 @@
     "express": "^5.2.1",
     "sqlite": "^5.1.1",
     "sqlite3": "^5.1.7",
+    "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "zod": "^4.1.11"
   },
@@ -31,7 +32,6 @@
     "@types/supertest": "^7.0.0",
     "jest": "^30.2.0",
     "supertest": "^7.1.4",
-    "ts-jest": "^29.4.5",
-    "tsx": "^4.21.0"
+    "ts-jest": "^29.4.5"
   }
 }
